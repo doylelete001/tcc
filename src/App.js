@@ -8,19 +8,19 @@ function App() {
         <div className="login">
         <form className="login-form">
         <span className="titulo-login">
-          Bem Vindo
+    Bem Vindo!
         </span>
         <span className="titulo-login">
           <img src={baka} alt=""/>
           </span>
           <div className="tudo-input">
-            < input className ="input" type="email"/>
-            <span className="focu.input"  placeholder="Email" >
+            < input className ="input" type="email"   placeholder="Email"/>
+            <span className="focar-input" >
             </span>
             </div>
             <div className="tudo-input">
-            < input className="input" type="password"/>
-            <span className="focar.input"  placeholder="Senha" >
+            < input className="input" type="password" placeholder="Senha"/>
+            <span className="focar-input"   >
             </span>
           </div>
           <div className="container-login-DoForm">
